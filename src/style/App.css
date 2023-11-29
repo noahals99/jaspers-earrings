@@ -1022,5 +1022,9 @@ p{
             font-size: 0.8rem;
             transition: ease-in-out 150ms;
         }
+
+        #featured-item-conatiner{
+            height: 37vh;
+        }
       }
 }
