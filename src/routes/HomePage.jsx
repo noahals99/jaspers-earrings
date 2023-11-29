@@ -5,7 +5,7 @@ import GenericButton from '../components/GenericButton';
 import ItemCard from '../components/ItemCard';
 import ItemDisplay from '../components/ItemDisplay';
 import LoadingIcon from '../components/LoadingIcon';
-import { SildeShowContext } from './root';
+import { SildeShowContext } from './Root';
 
 
 

@@ -1,5 +1,5 @@
 import { useRef,useEffect,useContext } from "react";
-import { UserContext } from "./root";
+import { UserContext } from "./Root";
 import CartDisplay from "../components/CartDisplay";
 
 function CartPage(){

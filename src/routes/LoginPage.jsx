@@ -3,7 +3,7 @@ import GenericButton from "../components/GenericButton";
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import Checkbox from "../components/Checkbox";
-import { LoginContext } from "./root";
+import { LoginContext } from "./Root";
 
 const apiUrlStart = "https://jaspers-earrings-api.fly.dev"
 

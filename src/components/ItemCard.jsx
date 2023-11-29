@@ -1,6 +1,6 @@
 import { useContext } from "react"
 import AddToCartButton from "./AddToCartButton"
-import { UserContext } from "../routes/root"
+import { UserContext } from "../routes/Root"
 
 function ItemCard({imgUrl, title, description, price, itemId}) {
     const {setSelectedItem, toggleDetailsDisplayed} = useContext(UserContext)

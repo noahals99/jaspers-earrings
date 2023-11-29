@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useLayoutEffect,useContext } from "react";
 import { motion, sync, useCycle  } from "framer-motion";
 import ToggleMenu from "./ToggleMenu";
 import NavMenu from "./NavMenu";
-import { UserContext } from "../routes/root";
+import { UserContext } from "../routes/Root";
 
 const sidebarVar = {
     open: (height = 1000) => ({

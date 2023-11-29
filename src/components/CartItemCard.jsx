@@ -2,7 +2,7 @@ import { useEffect, useState, useContext } from "react";
 import AddToCartButton from "./AddToCartButton";
 import { motion } from "framer-motion";
 import axios from "axios";
-import { UserContext } from "../routes/root";
+import { UserContext } from "../routes/Root";
 import uuid from 'react-uuid';
 const apiUrlStart = "https://jaspers-earrings-api.fly.dev"
 

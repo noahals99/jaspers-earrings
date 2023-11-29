@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import { useContext } from "react";
-import { UserContext } from "../routes/root";
+import { UserContext } from "../routes/Root";
 import uuid from 'react-uuid';
 
 function AddToCartButtonLarge({itemId}){

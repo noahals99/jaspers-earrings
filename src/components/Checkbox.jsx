@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useContext,useEffect } from "react";
-import { LoginContext } from "../routes/root";
+import { LoginContext } from "../routes/Root";
 
 const checkboxVarients = {
     checked: {

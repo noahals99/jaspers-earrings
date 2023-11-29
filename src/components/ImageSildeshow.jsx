@@ -1,5 +1,5 @@
 import { useState,useEffect, useContext } from "react";
-import { SildeShowContext } from "../routes/root";
+import { SildeShowContext } from "../routes/Root";
 
 
 const ImageSildeshow = ({}) => {
