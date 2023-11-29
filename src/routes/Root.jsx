@@ -99,6 +99,12 @@ function Root() {
   },[loginKey])
 
   useEffect(() => {
+    if(imgUrlList.length > 0){
+      setIsSlidshowLoading(false);
+    }
+  },[imgUrlList])
+
+  useEffect(() => {
     if(currentCartId){
       const cartString = encodeURIComponent(JSON.stringify(userCart));
       let apiUrl = `${apiUrlStart}/api/items/cart/${currentCartId}?userCart=${cartString}`;
