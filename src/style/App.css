@@ -65,6 +65,7 @@ p{
     display: flex;
     height: 100vh;
     width: 100vw;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -249,9 +250,9 @@ p{
     margin-bottom: 10px;
     background: transparent;
     border: solid white;
-    height: 70px;
+    height: 35px;
     width: 60%;
-    font-size: 1.5rem;
+    font-size: 1rem;
     border-radius: 10px;
     font-family: montserrat;
     font-weight: 500;
@@ -715,13 +716,12 @@ p{
     justify-content: center;
     padding: 20px;
     width: 100%;
-    height: 500px;
+    height: 400px;
     overflow-y: hidden;
     
 }
 
 .single-item-img{
-    margin-top: 80x;
     justify-self: center;
     object-fit:cover;
     height: 100%;
@@ -739,7 +739,7 @@ p{
 
 #single-item-title{
     padding-bottom: 10px;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     font-family: montserrat;
     font-weight: 800;
     color: white;
@@ -753,12 +753,14 @@ p{
 
 .single-item-description-conatiner{
     display: flex;
+    align-items: center;
+    text-align: center;
     overflow-y: hidden;
 }
 
 
 #single-item-description{
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     font-weight: 300;
     overflow-y: hidden;
 }
@@ -964,6 +966,20 @@ p{
         align-self: flex-start;
         justify-content: flex-start;
         padding-left: 2%;
+    }
+
+    #single-item-description{
+        font-size: 0.8rem;
+    }
+
+    .exit-button-container{
+        width: 23%;
+        display: flex;
+        align-self: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 50px;
+        left: 25px;
     }
     
     .exit-button-placeholder{
