@@ -36,6 +36,13 @@ const NavMenu = ({ toggle,isOpen }) => {
         
     }
 
+    const loginHandle = () => {
+        if(isOpen){
+            toggle();
+        }
+        
+    }
+
     const logoutHandle = () => {
         if(isOpen){
             toggle();
@@ -69,7 +76,7 @@ const NavMenu = ({ toggle,isOpen }) => {
         {!loginKey &&
                 <>
                     <MenuButton text={"Register"} clickHandle={registerHandle}/>
-                    <MenuLink text={"Or login"}></MenuLink>
+                    <MenuLink text={"Or login"} clickHandle={loginHandle}></MenuLink>
                 </>
         }
         {loginKey &&

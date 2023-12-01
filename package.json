@@ -18,6 +18,7 @@
     "react-router-dom": "^6.17.0",
     "react-scroll-parallax": "^3.4.3",
     "react-uuid": "^2.0.0",
+    "three": "^0.158.0",
     "uuid": "^9.0.1"
   },
   "devDependencies": {
