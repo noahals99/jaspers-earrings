@@ -999,7 +999,7 @@ p{
         background-color: rgb(210, 227, 200);
         margin-top: 25px;
         display: flex;
-        top: 187px;
+        top: 18px;
         right: 32px;
         max-height: 150px;
         position: absolute;
@@ -1046,15 +1046,15 @@ p{
         margin-top: 27px;
         display: flex;
         top: 184px;
-        right: 29px;
+        right: 30px;
         max-height: 150px;
         position: absolute;
     }
 
     .category-list-item{
         width: 112px;
-        padding-left: 18px;
-        padding-right: 10px;
+        padding-left: 11px;
+        padding-right: 18px;
         background-color: rgb(210, 227, 200);
         font-size: 0.8rem;
         transition: ease-in-out 150ms;
