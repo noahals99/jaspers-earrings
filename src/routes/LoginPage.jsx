@@ -36,6 +36,7 @@ function LoginPage(){
     }
 
     const posthandle = () => {
+        console.log("sending post")
         axios({
             method: "POST",
             url: apiUrl,
