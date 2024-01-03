@@ -1,4 +1,7 @@
-Go to [live app](https://jaspers-earrings.netlify.app/)
+Go to [live app](https://jaspers-earrings.netlify.app/)\
+Go to [backend repository](https://github.com/noahals99/Jaspers-earring-backend/tree/main)
+
+
 *************************************************************************************************************************
 
 Jasper's earrings is a full stack ecommerce website built using the following technologies:
