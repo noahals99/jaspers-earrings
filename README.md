@@ -22,4 +22,4 @@ Notable features include:
 Note: Payment features have been disabled due to dummy products being used currently.
 
 ## Demo:
-![Video of webiste demo](/assets/Demo.mp4)
+![Video of webiste demo](/assets/Demo.gif)
